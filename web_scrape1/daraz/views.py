@@ -45,6 +45,4 @@ def add(request):
 
 # Create your views here.
 
-def minus (request):
-    pass
 
