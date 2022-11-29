@@ -57,8 +57,10 @@ def input(request):
         driver.quit()
 
         return redirect('/chaldal/output/')
-    else:
-        return HttpResponse("This is not POST METHOD")
+    # else:
+    #     return HttpResponse("This is not POST METHOD")
+
+    return render(request, 'chaldal/input.html')
 
 
 def output(request):
